@@ -16,7 +16,7 @@ a{
 }
 
 body{
-    background-color: #f0f0f5;;
+    background-color: #f0f0f5;
 }
 
 .container{
@@ -66,11 +66,8 @@ form input{
     box-sizing: border-box;
     border-radius: 8px;
     outline: none;
+    padding-left: 10px;
 }
-
-input[type="text"]::placeholder {  
-    padding-left: 10px; 
-} 
 
 form button{
     margin-top: 10px;
@@ -89,9 +86,10 @@ form button:hover{
     background: #e90f34;
 }
 
-.cadastro{
+.cadastro a{ 
     display: flex;
     margin-left: 5px;
+    color: #13131a;
 }
 
 p{
@@ -105,10 +103,32 @@ p{
     line-height: 21px;
 }
 
+.right{
+    position: relative;
+    width: 500px;
+    margin-right: 65px;
+}
+
 .right img{
+    margin-top: 70px;
     width: 500px;
 }
 
-.right{
-    margin-right: 30px;
+.right .img1{
+    position: absolute;
+    top: -280px;
+    z-index: 1;
 }
+
+.right .img2{
+    position: absolute;
+    top: -300px;
+    z-index: 4;
+}
+
+.right .img3{
+    position: absolute;
+    top: -70px;
+    z-index: 0;
+}
+

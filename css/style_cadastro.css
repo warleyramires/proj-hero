@@ -1,0 +1,59 @@
+/*PAGINA DE CADASTRO*/
+
+/*LEFT*/
+
+.left{
+    margin-left: 13px;
+}
+
+.cadastro h2{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-bottom: 15px;
+    color: #13131a;
+}
+
+.cadastro p{
+    width: 384px;
+    height: 64px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #737380;
+}
+
+.no-cad a{ 
+    display: flex;
+    margin-left: 5px;
+    color: #13131a;
+}
+
+.no-cad a img{
+    width: 8px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    color: #A8A8B3;
+    width: 448px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1.5px solid #DCDCE6;
+    box-sizing: border-box;
+    border-radius: 8px;
+    outline: none;
+    margin-bottom: 5px;
+}
+
+form button{
+    width: 448px;
+    height: 60px;
+    background: #E02041;
+    border-radius: 8px; 
+}
